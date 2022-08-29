@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form input Data</title>
+</head>
+
+<body>
+    <style>
+        body{
+            background: #FFEFD5 ;
+        }
+        form{
+            border: solid 1px #ccc;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        div{
+            margin-bottom: 10px;
+        }
+        input{
+            box-sizing: border-box;
+        }
+    </style>
+    <div>
+    <h3>Create a Profile</h3>
+    <form id="form" action="createot2.php" method="POST">
+        <div>
+            <label for="name">First Name:</label>
+            <input id="name" name="Fnama" type="text" required>
+        </div>
+        <div>
+            <label for="name">Last Name:</label>
+            <input id="name" name="Lnama" type="text" required>
+        </div>
+        <div>
+            <label>NIM :</label>
+            <input type="text" name="nim">
+        </div>
+        <div>
+            <label for="Date of Brith">Date of Brith:</label>
+            <input type="text" name="lahir">
+        <div>
+            <label>Age :</label>
+            <input type="text" name="umur">
+        </div>
+        <div>
+            <label>Height :</label>
+            <input type="text" name="height">
+        </div>
+        <div>
+            <label>Address :</label>
+            <input type="text" name="alamat">
+        </div>
+        <input type="submit" name="Save">
+    </form>
+</body>
+</html>
